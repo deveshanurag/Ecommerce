@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    grid-row-gap: 500px;
+    background-color: green;
+  }
+  #table2 {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    text-justify: flex-start;
+    /* align-content: center; */
+    margin-top: 100px;
+  }
+  #table2 li {
+    display: inline;
+    list-style: none;
+    padding: 0px 8px;
+    width: 100px;
+    margin: 100px;
+  }
+  #table2 li img {
+    text-decoration: none;
+  
+    height: 100px;
+  }
+  #table2 a:hover
+  {
+    color: blue;
+  }
